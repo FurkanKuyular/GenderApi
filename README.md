@@ -65,7 +65,9 @@ Written with **https://go.dev/**
  ```json
         {
           "success": false,
-          "message": "Name is not exist",
+          "error": {
+            "message": "Name is not exist"
+            }
         }
  ```
 
