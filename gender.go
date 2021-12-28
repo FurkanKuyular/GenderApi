@@ -28,7 +28,7 @@ type ErrorPayload struct {
 
 type ErrorResponse struct {
 	Success      bool         `json:"success"`
-	ErrorPayload ErrorPayload `json:"message"`
+	ErrorPayload ErrorPayload `json:"error"`
 }
 
 func checkName(res http.ResponseWriter, req *http.Request) bool {
